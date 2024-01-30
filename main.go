@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	medianoftwosortedarrays "github.com/Nathan-G-Rogers/golang-leetcode-learning/04-median-of-two-sorted-arrays"
+	longestpalindromicsubstring "github.com/Nathan-G-Rogers/golang-leetcode-learning/05-longest-palindromic-substring"
 )
 
 func main() {
@@ -26,8 +26,12 @@ func main() {
 
 	//fmt.Println(solution3)
 
-	solution4 := medianoftwosortedarrays.FindMedianSortedArrays([]int{1, 2}, []int{3, 4})
+	// solution4 := medianoftwosortedarrays.FindMedianSortedArrays([]int{1, 2}, []int{3, 4})
 
-	fmt.Println(solution4)
+	// fmt.Println(solution4)
+
+	solution5 := longestpalindromicsubstring.LongestPalindrome("cbbbbncncc")
+
+	fmt.Println(solution5)
 
 }

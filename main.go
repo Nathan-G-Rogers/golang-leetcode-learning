@@ -1,10 +1,6 @@
 package main
 
-import (
-	"fmt"
-
-	longestpalindromicsubstring "github.com/Nathan-G-Rogers/golang-leetcode-learning/05-longest-palindromic-substring"
-)
+import removeelement "github.com/Nathan-G-Rogers/golang-leetcode-learning/27-remove-element"
 
 func main() {
 	// fmt.Println("Hello World")
@@ -30,8 +26,10 @@ func main() {
 
 	// fmt.Println(solution4)
 
-	solution5 := longestpalindromicsubstring.LongestPalindrome("cbbbbncncc")
+	// solution5 := longestpalindromicsubstring.LongestPalindrome("cbbbbncncc")
 
-	fmt.Println(solution5)
+	// fmt.Println(solution5)
+
+	removeelement.RemoveElement([]int{0, 1, 2, 2, 3, 0, 4, 2}, 2)
 
 }
